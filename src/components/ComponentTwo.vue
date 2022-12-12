@@ -2,7 +2,9 @@
     <div id="mixin">
         <h1 id="comp">Hello from component two</h1>
         <p id="info">{{someInfo}}</p>
-        <button @click="clickThis">Click Me</button>
+        <button @mouseover="mouseover">Click Me</button>
+        <input @keypress="keypress" placeholder="prese any key">
+        <!-- <button @click="greeting">Date & Time</button> -->
     </div>
 </template>
 

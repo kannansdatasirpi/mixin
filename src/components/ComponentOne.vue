@@ -2,7 +2,10 @@
     <div id="mix">
         <h1 id="comp">Hello from component one</h1>
         <p id="info">{{someInfo}}</p>
-        <button @mouseover="clickThis">Click Me</button>
+        
+        <input @mouseup="mouseup" placeholder="Enter" name="Firstname">
+        <button @click="clickThis">Click Me</button>
+        
     </div>
 </template>
 
